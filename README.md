@@ -1,14 +1,14 @@
 ﻿# Duomenu apdorojimas (2 oji užduotis)
 
-#Papildoma užduotis
-Papilodmos užduoties įdiegimas (Unix kompiuteryje) naudojant clang kompiliatorių.
+# Papildoma užduotis
+# Papilodmos užduoties įdiegimas (Unix kompiuteryje) naudojant clang kompiliatorių.
 - `git clone https://github.com/vikuliukas/OOP_2_uzd.git`
 - `cd OOP_2_uzd`
 - `cd Papildoma`
 - `cd vector/deque`
 - `make`
 - `./main`
-Instrukcijos:
+# Instrukcijos:
 - Pasirinkite kiek failų norite sugeneruoti, jei to daryti nenorite įveskite 0.
 - Pasirinkite ar norite duomenis nuskaityti nuo failo ar suvesti ranka (suvedimui ranka įveskite 0, nuskaitimui nuo failo įveskite 1).
 - Jei duomenis vedate ranka, nustoti vesti duomenis galite vietoje studento vardo įvedę 0.
@@ -16,7 +16,7 @@ Instrukcijos:
 - Pasirinkite ar galutinį balą skaičiuoti pagal vidurį ar medianą (įveskite 0 - pagal visdurki, 1 - pagal mediana).
 - Pasirinkite ar norite naudoti funkciją raskMinksrus(), ar iterpkKieti() (įveskite 0 - funkcijai raskMinkstus(), 1 - funkcijai iterpkKietus()).
 - Programos įvykdymo laikai surašyti faile "bandymai".
-Išvados:
+# Išvados:
 - Jei naudojate std::vector, tada funkcija raskMinkstus() yra efektivesnė nei funkcija iterpkKietus().
 - Jei naudojate std::deque, tada funkcija iterpkKietus() yra efektivesnė nei funkcija raskMinkstus().
 - Jeigu jums reikia įterpti duomenis į konteinerio pradžią, tada std::deque turi funkciją, kuri yra skirta būtent tam.
